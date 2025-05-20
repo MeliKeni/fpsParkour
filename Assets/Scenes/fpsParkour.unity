@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 939460817}
   - component: {fileID: 939460816}
   m_Layer: 0
-  m_Name: Plataforma_2x4 (4)
+  m_Name: Plataforma_6x4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

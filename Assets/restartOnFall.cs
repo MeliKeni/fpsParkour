@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+ 
 
 public class restartOnFall : MonoBehaviour
 {
@@ -15,8 +17,7 @@ public class restartOnFall : MonoBehaviour
     {
         if(transform.position.y < -25)
         {
-            Debug.Log("Me cai");
-
+            SceneManager.LoadScene("fpsParkour");
         }
     }
 }
